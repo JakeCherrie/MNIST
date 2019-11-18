@@ -8,4 +8,4 @@ ADD ./docker/environment.yml /
 RUN conda update -n base -c defaults conda setuptools
 
 # create the environment
-RUN conda update -n base conda -y && conda env update
+RUN conda update -n base conda -y
